@@ -14,3 +14,9 @@ class LoginPageLocators:
     PASSWORD_REG2=By.NAME,"registration-password2"
     BTN_REG=By.NAME,"registration_submit"
 
+class ProductPageLocators:
+    BTN_ADD_TO_COURT=By.CLASS_NAME,"btn-add-to-basket"
+    PRODUCT_NAME = (By.CSS_SELECTOR, "div h1")
+    ADD_TO_BASKET_MESSAGE = (By.CSS_SELECTOR, "div.alertinner > strong")
+    PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
+    BASKET_PRICE = (By.CSS_SELECTOR, "div.alert div p strong")
